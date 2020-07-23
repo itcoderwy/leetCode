@@ -101,7 +101,7 @@ public class ArrayQueueDemo {
             //判断数据是否为空
             if(isEmpty()){
                 //通过抛出异常处理
-                throw  new RuntimeException("队列为空,不能取出");
+                throw  new RuntimeException("队列为空,不能取出~~");
             }
             front++;//让front后移
             return arr[front];
@@ -109,7 +109,7 @@ public class ArrayQueueDemo {
         //展示队列的所有数据
         public void showQueue(){
             if(isEmpty()){
-                System.out.println("队列为空不能遍历");
+                System.out.println("队列为空不能遍历~~");
                 return;
             }
             for (int i = 0; i < arr.length; i++) {
