@@ -50,12 +50,13 @@ public class SparseArray {
         //稀疏数组创建成功后将其存入到硬盘
         File file = new File("C:\\Users\\Wy005\\Desktop\\map.data");
         if(file.exists()){//判断文件是否存在
-            try {
+            /*try {
                 file.createNewFile();//如果不存在就创建文件
             } catch (IOException e) {
                 e.printStackTrace();
-            }
+            }*/
         }
+
 
         FileOutputStream os = new FileOutputStream(file);
         for (int i = 0; i < sparseArray.length; i++) {
